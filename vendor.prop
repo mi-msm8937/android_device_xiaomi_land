@@ -1,2 +1,4 @@
 # Xiaomi land - Camera
 ro.hardware.camera=land
+persist.camera.gyro.android=0
+persist.camera.gyro.disable=1
