@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_xiaomi_landtoni-common",
+    "target_path": "device/xiaomi/landtoni-common"
+  }
+]
