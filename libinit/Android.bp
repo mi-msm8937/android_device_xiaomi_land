@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "init_xiaomi_land",
+    srcs: ["init_xiaomi_land.cpp"],
+    whole_static_libs: ["//device/xiaomi/msm8937-common:libinit_xiaomi_msm8937"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
+}
