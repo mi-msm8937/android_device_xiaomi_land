@@ -37,6 +37,7 @@ function blob_fixup() {
         vendor/lib/libmmcamera2_stats_modules.so)
             sed -i 's|data/misc/camera|data/vendor/qcam|g' "${2}"
             sed -i 's|libgui.so|libwui.so|g' "${2}"
+            "${PATCHELF}" --replace-needed "libandroid.so" "libshims_android.so" "${2}"
             ;;
     esac
 }
