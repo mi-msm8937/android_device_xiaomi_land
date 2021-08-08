@@ -1,2 +1,4 @@
+# Xiaomi land - Camera
+persist.camera.is_type=1
 persist.ts.rtmakeup=true
 media.camera.ts.monotonic=1
