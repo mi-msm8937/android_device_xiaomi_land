@@ -8,6 +8,12 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/bin/mm-qcamera-daemon)
+            sed -i 's|data/misc/camera|data/vendor/qcam|g' "${2}"
+            if ! "${PATCHELF}" --print-needed "${2}" | grep "libshims_c_camera.so" >/dev/null; then
+                "${PATCHELF}" --add-needed "libshims_c_camera.so" "${2}"
+            fi
+            ;;
         vendor/lib/libmmsw_platform.so|vendor/lib/libmmsw_detail_enhancement.so)
             "${PATCHELF}" --remove-needed "libbinder.so" "${2}"
             sed -i 's|libgui.so|libwui.so|g' "${2}"
@@ -30,8 +36,7 @@ function blob_fixup() {
         |vendor/lib/libmmcamera2_pproc_modules.so \
         |vendor/lib/libmmcamera2_imglib_modules.so \
         |vendor/lib/libmmcamera2_cpp_module.so \
-        |vendor/lib/libmmcamera_pdaf.so \
-        |vendor/bin/mm-qcamera-daemon)
+        |vendor/lib/libmmcamera_pdaf.so)
             sed -i 's|data/misc/camera|data/vendor/qcam|g' "${2}"
             ;;
         vendor/lib/libmmcamera2_stats_modules.so)
