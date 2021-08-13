@@ -1,4 +1,5 @@
 # Xiaomi land - Camera
+camera.lowpower.record.enable=0
 persist.camera.gyro.android=0
 persist.camera.gyro.disable=1
 persist.camera.is_type=1
