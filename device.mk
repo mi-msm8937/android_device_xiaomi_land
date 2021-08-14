@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Device
+DEVICE := land
+
 # Inherit from landtoni-common
 $(call inherit-product, device/xiaomi/landtoni-common/landtoni.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
