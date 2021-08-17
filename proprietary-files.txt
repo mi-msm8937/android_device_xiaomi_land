@@ -370,6 +370,6 @@ bin/gx_fpd:vendor/bin/gx_fpd
 lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so
 lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.so
 lib64/hw/gxfingerprint.default.so:vendor/lib64/hw/gxfingerprint.default.so
-lib64/libfp_client.so:vendor/lib64/libfp_client.so
+lib64/libfp_client.so:vendor/lib64/libfp_client.so|1300e5d4c25504eb29f27e8d3467eaa0825acbef
 lib64/libfpnav.so:vendor/lib64/libfpnav.so
-lib64/libfpservice.so:vendor/lib64/libfpservice.so
+lib64/libfpservice.so:vendor/lib64/libfpservice.so|beca82a4f50b6fcb7959c6171f2d509bd5c6b5d0
