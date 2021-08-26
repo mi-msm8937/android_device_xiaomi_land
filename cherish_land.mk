@@ -31,3 +31,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/release-keys"
+
+# CherishOS OFFICIAL
+CHERISH_BUILD_TYPE := OFFICIAL
+PRODUCT_GENERIC_PROPERTIES += \
+    ro.cherish.maintainer=me-cafebabe
