@@ -1,0 +1,32 @@
+[
+  {
+    "remote": "devices",
+    "repository": "device_xiaomi_msm8937-common",
+    "target_path": "device/xiaomi/msm8937-common"
+  },
+  {
+    "remote": "devices",
+    "repository": "device_xiaomi_landtoni-common",
+    "target_path": "device/xiaomi/landtoni-common"
+  },
+  {
+    "remote": "devices",
+    "repository": "kernel_xiaomi_msm8937",
+    "target_path": "kernel/xiaomi/msm8937"
+  },
+  {
+    "remote": "devices",
+    "repository": "vendor_xiaomi_msm8937-common",
+    "target_path": "vendor/xiaomi/msm8937-common"
+  },
+  {
+    "remote": "devices",
+    "repository": "vendor_xiaomi_landtoni-common",
+    "target_path": "vendor/xiaomi/landtoni-common"
+  },
+  {
+    "remote": "devices",
+    "repository": "vendor_xiaomi_land",
+    "target_path": "vendor/xiaomi/land"
+  }
+]
