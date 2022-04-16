@@ -1,0 +1,2 @@
+# Camera
+/(vendor|system/vendor)/bin/land_mm-qcamera-daemon	u:object_r:mm-qcamerad_exec:s0

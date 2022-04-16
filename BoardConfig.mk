@@ -11,7 +11,7 @@ DEVICE_PATH := device/xiaomi/land
 
 # Camera
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
-    /vendor/bin/mm-qcamera-daemon=23
+    /vendor/bin/land_mm-qcamera-daemon=23
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_land

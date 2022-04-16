@@ -264,7 +264,7 @@ vendor/lib/libmmcamera_s5k5e8_eeprom.so
 vendor/lib/libmmcamera_s5k5e8.so
 
 # Camera stack
-bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
+bin/mm-qcamera-daemon:vendor/bin/land_mm-qcamera-daemon
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
